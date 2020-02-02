@@ -74,14 +74,14 @@
     "absolutePath": "/C/Users/geoandri/MetaCoin/contracts/RedHat.sol",
     "exportedSymbols": {
       "RedHat": [
-        337
+        339
       ]
     },
-    "id": 338,
+    "id": 340,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 277,
+        "id": 279,
         "literals": [
           "solidity",
           ">=",
@@ -100,19 +100,19 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 337,
+        "id": 339,
         "linearizedBaseContracts": [
-          337
+          339
         ],
         "name": "RedHat",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 281,
+            "id": 283,
             "name": "hats",
             "nodeType": "VariableDeclaration",
-            "scope": 337,
+            "scope": 339,
             "src": "56:30:3",
             "stateVariable": true,
             "storageLocation": "default",
@@ -121,9 +121,9 @@
               "typeString": "mapping(address => uint256)"
             },
             "typeName": {
-              "id": 280,
+              "id": 282,
               "keyType": {
-                "id": 278,
+                "id": 280,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "65:7:3",
@@ -139,7 +139,7 @@
                 "typeString": "mapping(address => uint256)"
               },
               "valueType": {
-                "id": 279,
+                "id": 281,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
                 "src": "76:4:3",
@@ -155,20 +155,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 285,
+            "id": 287,
             "name": "RedHatEarned",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 284,
+              "id": 286,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 283,
+                  "id": 285,
                   "indexed": true,
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 285,
+                  "scope": 287,
                   "src": "112:19:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -177,7 +177,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 282,
+                    "id": 284,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "112:7:3",
@@ -197,14 +197,14 @@
           },
           {
             "body": {
-              "id": 295,
+              "id": 297,
               "nodeType": "Block",
               "src": "159:31:3",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 293,
+                    "id": 295,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -213,34 +213,34 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 288,
+                        "id": 290,
                         "name": "hats",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 281,
+                        "referencedDeclaration": 283,
                         "src": "164:4:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 291,
+                      "id": 293,
                       "indexExpression": {
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 289,
+                          "id": 291,
                           "name": "tx",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 364,
+                          "referencedDeclaration": 366,
                           "src": "169:2:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_transaction",
                             "typeString": "tx"
                           }
                         },
-                        "id": 290,
+                        "id": 292,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -270,7 +270,7 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "313030",
-                      "id": 292,
+                      "id": 294,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -291,32 +291,32 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 294,
+                  "id": 296,
                   "nodeType": "ExpressionStatement",
                   "src": "164:21:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 296,
+            "id": 298,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 286,
+              "id": 288,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "149:2:3"
             },
             "returnParameters": {
-              "id": 287,
+              "id": 289,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "159:0:3"
             },
-            "scope": 337,
+            "scope": 339,
             "src": "138:52:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -324,7 +324,7 @@
           },
           {
             "body": {
-              "id": 323,
+              "id": 325,
               "nodeType": "Block",
               "src": "266:119:3",
               "statements": [
@@ -335,7 +335,7 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 307,
+                    "id": 309,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -344,25 +344,25 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 303,
+                        "id": 305,
                         "name": "hats",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 281,
+                        "referencedDeclaration": 283,
                         "src": "275:4:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 305,
+                      "id": 307,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 304,
+                        "id": 306,
                         "name": "receiver",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 298,
+                        "referencedDeclaration": 300,
                         "src": "280:8:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -385,7 +385,7 @@
                     "rightExpression": {
                       "argumentTypes": null,
                       "hexValue": "31",
-                      "id": 306,
+                      "id": 308,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -407,14 +407,14 @@
                     }
                   },
                   "falseBody": null,
-                  "id": 310,
+                  "id": 312,
                   "nodeType": "IfStatement",
                   "src": "271:37:3",
                   "trueBody": {
                     "expression": {
                       "argumentTypes": null,
                       "hexValue": "66616c7365",
-                      "id": 308,
+                      "id": 310,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -429,8 +429,8 @@
                       },
                       "value": "false"
                     },
-                    "functionReturnParameters": 302,
-                    "id": 309,
+                    "functionReturnParameters": 304,
+                    "id": 311,
                     "nodeType": "Return",
                     "src": "296:12:3"
                   }
@@ -438,7 +438,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 315,
+                    "id": 317,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -447,25 +447,25 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 311,
+                        "id": 313,
                         "name": "hats",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 281,
+                        "referencedDeclaration": 283,
                         "src": "313:4:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 313,
+                      "id": 315,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 312,
+                        "id": 314,
                         "name": "receiver",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 298,
+                        "referencedDeclaration": 300,
                         "src": "318:8:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -488,7 +488,7 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "31",
-                      "id": 314,
+                      "id": 316,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -509,7 +509,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 316,
+                  "id": 318,
                   "nodeType": "ExpressionStatement",
                   "src": "313:19:3"
                 },
@@ -519,11 +519,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 318,
+                        "id": 320,
                         "name": "receiver",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 298,
+                        "referencedDeclaration": 300,
                         "src": "355:8:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -538,18 +538,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 317,
+                      "id": 319,
                       "name": "RedHatEarned",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 285,
+                      "referencedDeclaration": 287,
                       "src": "342:12:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 319,
+                    "id": 321,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -563,7 +563,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 320,
+                  "id": 322,
                   "nodeType": "EmitStatement",
                   "src": "337:27:3"
                 },
@@ -571,7 +571,7 @@
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "74727565",
-                    "id": 321,
+                    "id": 323,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -586,30 +586,30 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 302,
-                  "id": 322,
+                  "functionReturnParameters": 304,
+                  "id": 324,
                   "nodeType": "Return",
                   "src": "369:11:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 324,
+            "id": 326,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "earnRedHat",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 299,
+              "id": 301,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 298,
+                  "id": 300,
                   "name": "receiver",
                   "nodeType": "VariableDeclaration",
-                  "scope": 324,
+                  "scope": 326,
                   "src": "216:16:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -618,7 +618,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 297,
+                    "id": 299,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "216:7:3",
@@ -635,15 +635,15 @@
               "src": "215:18:3"
             },
             "returnParameters": {
-              "id": 302,
+              "id": 304,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 301,
+                  "id": 303,
                   "name": "sufficient",
                   "nodeType": "VariableDeclaration",
-                  "scope": 324,
+                  "scope": 326,
                   "src": "249:15:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -652,7 +652,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 300,
+                    "id": 302,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "249:4:3",
@@ -667,7 +667,7 @@
               ],
               "src": "248:17:3"
             },
-            "scope": 337,
+            "scope": 339,
             "src": "196:189:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -675,7 +675,7 @@
           },
           {
             "body": {
-              "id": 335,
+              "id": 337,
               "nodeType": "Block",
               "src": "448:27:3",
               "statements": [
@@ -684,25 +684,25 @@
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 331,
+                      "id": 333,
                       "name": "hats",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 281,
+                      "referencedDeclaration": 283,
                       "src": "460:4:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                         "typeString": "mapping(address => uint256)"
                       }
                     },
-                    "id": 333,
+                    "id": 335,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 332,
+                      "id": 334,
                       "name": "addr",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 326,
+                      "referencedDeclaration": 328,
                       "src": "465:4:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -720,30 +720,30 @@
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 330,
-                  "id": 334,
+                  "functionReturnParameters": 332,
+                  "id": 336,
                   "nodeType": "Return",
                   "src": "453:17:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 336,
+            "id": 338,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getHats",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 327,
+              "id": 329,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 326,
+                  "id": 328,
                   "name": "addr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 336,
+                  "scope": 338,
                   "src": "408:12:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -752,7 +752,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 325,
+                    "id": 327,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "408:7:3",
@@ -769,15 +769,15 @@
               "src": "407:14:3"
             },
             "returnParameters": {
-              "id": 330,
+              "id": 332,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 329,
+                  "id": 331,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 336,
+                  "scope": 338,
                   "src": "442:4:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -786,7 +786,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 328,
+                    "id": 330,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "442:4:3",
@@ -801,14 +801,14 @@
               ],
               "src": "441:6:3"
             },
-            "scope": 337,
+            "scope": 339,
             "src": "391:84:3",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 338,
+        "scope": 340,
         "src": "36:442:3"
       }
     ],
@@ -818,14 +818,14 @@
     "absolutePath": "/C/Users/geoandri/MetaCoin/contracts/RedHat.sol",
     "exportedSymbols": {
       "RedHat": [
-        337
+        339
       ]
     },
-    "id": 338,
+    "id": 340,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 277,
+        "id": 279,
         "literals": [
           "solidity",
           ">=",
@@ -844,19 +844,19 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 337,
+        "id": 339,
         "linearizedBaseContracts": [
-          337
+          339
         ],
         "name": "RedHat",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 281,
+            "id": 283,
             "name": "hats",
             "nodeType": "VariableDeclaration",
-            "scope": 337,
+            "scope": 339,
             "src": "56:30:3",
             "stateVariable": true,
             "storageLocation": "default",
@@ -865,9 +865,9 @@
               "typeString": "mapping(address => uint256)"
             },
             "typeName": {
-              "id": 280,
+              "id": 282,
               "keyType": {
-                "id": 278,
+                "id": 280,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "65:7:3",
@@ -883,7 +883,7 @@
                 "typeString": "mapping(address => uint256)"
               },
               "valueType": {
-                "id": 279,
+                "id": 281,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
                 "src": "76:4:3",
@@ -899,20 +899,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 285,
+            "id": 287,
             "name": "RedHatEarned",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 284,
+              "id": 286,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 283,
+                  "id": 285,
                   "indexed": true,
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 285,
+                  "scope": 287,
                   "src": "112:19:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -921,7 +921,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 282,
+                    "id": 284,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "112:7:3",
@@ -941,14 +941,14 @@
           },
           {
             "body": {
-              "id": 295,
+              "id": 297,
               "nodeType": "Block",
               "src": "159:31:3",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 293,
+                    "id": 295,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -957,34 +957,34 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 288,
+                        "id": 290,
                         "name": "hats",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 281,
+                        "referencedDeclaration": 283,
                         "src": "164:4:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 291,
+                      "id": 293,
                       "indexExpression": {
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 289,
+                          "id": 291,
                           "name": "tx",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 364,
+                          "referencedDeclaration": 366,
                           "src": "169:2:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_transaction",
                             "typeString": "tx"
                           }
                         },
-                        "id": 290,
+                        "id": 292,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1014,7 +1014,7 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "313030",
-                      "id": 292,
+                      "id": 294,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -1035,32 +1035,32 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 294,
+                  "id": 296,
                   "nodeType": "ExpressionStatement",
                   "src": "164:21:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 296,
+            "id": 298,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 286,
+              "id": 288,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "149:2:3"
             },
             "returnParameters": {
-              "id": 287,
+              "id": 289,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "159:0:3"
             },
-            "scope": 337,
+            "scope": 339,
             "src": "138:52:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1068,7 +1068,7 @@
           },
           {
             "body": {
-              "id": 323,
+              "id": 325,
               "nodeType": "Block",
               "src": "266:119:3",
               "statements": [
@@ -1079,7 +1079,7 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 307,
+                    "id": 309,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1088,25 +1088,25 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 303,
+                        "id": 305,
                         "name": "hats",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 281,
+                        "referencedDeclaration": 283,
                         "src": "275:4:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 305,
+                      "id": 307,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 304,
+                        "id": 306,
                         "name": "receiver",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 298,
+                        "referencedDeclaration": 300,
                         "src": "280:8:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -1129,7 +1129,7 @@
                     "rightExpression": {
                       "argumentTypes": null,
                       "hexValue": "31",
-                      "id": 306,
+                      "id": 308,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -1151,14 +1151,14 @@
                     }
                   },
                   "falseBody": null,
-                  "id": 310,
+                  "id": 312,
                   "nodeType": "IfStatement",
                   "src": "271:37:3",
                   "trueBody": {
                     "expression": {
                       "argumentTypes": null,
                       "hexValue": "66616c7365",
-                      "id": 308,
+                      "id": 310,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -1173,8 +1173,8 @@
                       },
                       "value": "false"
                     },
-                    "functionReturnParameters": 302,
-                    "id": 309,
+                    "functionReturnParameters": 304,
+                    "id": 311,
                     "nodeType": "Return",
                     "src": "296:12:3"
                   }
@@ -1182,7 +1182,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 315,
+                    "id": 317,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1191,25 +1191,25 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 311,
+                        "id": 313,
                         "name": "hats",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 281,
+                        "referencedDeclaration": 283,
                         "src": "313:4:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 313,
+                      "id": 315,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 312,
+                        "id": 314,
                         "name": "receiver",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 298,
+                        "referencedDeclaration": 300,
                         "src": "318:8:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -1232,7 +1232,7 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "31",
-                      "id": 314,
+                      "id": 316,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -1253,7 +1253,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 316,
+                  "id": 318,
                   "nodeType": "ExpressionStatement",
                   "src": "313:19:3"
                 },
@@ -1263,11 +1263,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 318,
+                        "id": 320,
                         "name": "receiver",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 298,
+                        "referencedDeclaration": 300,
                         "src": "355:8:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -1282,18 +1282,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 317,
+                      "id": 319,
                       "name": "RedHatEarned",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 285,
+                      "referencedDeclaration": 287,
                       "src": "342:12:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 319,
+                    "id": 321,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1307,7 +1307,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 320,
+                  "id": 322,
                   "nodeType": "EmitStatement",
                   "src": "337:27:3"
                 },
@@ -1315,7 +1315,7 @@
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "74727565",
-                    "id": 321,
+                    "id": 323,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -1330,30 +1330,30 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 302,
-                  "id": 322,
+                  "functionReturnParameters": 304,
+                  "id": 324,
                   "nodeType": "Return",
                   "src": "369:11:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 324,
+            "id": 326,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "earnRedHat",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 299,
+              "id": 301,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 298,
+                  "id": 300,
                   "name": "receiver",
                   "nodeType": "VariableDeclaration",
-                  "scope": 324,
+                  "scope": 326,
                   "src": "216:16:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1362,7 +1362,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 297,
+                    "id": 299,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "216:7:3",
@@ -1379,15 +1379,15 @@
               "src": "215:18:3"
             },
             "returnParameters": {
-              "id": 302,
+              "id": 304,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 301,
+                  "id": 303,
                   "name": "sufficient",
                   "nodeType": "VariableDeclaration",
-                  "scope": 324,
+                  "scope": 326,
                   "src": "249:15:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1396,7 +1396,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 300,
+                    "id": 302,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "249:4:3",
@@ -1411,7 +1411,7 @@
               ],
               "src": "248:17:3"
             },
-            "scope": 337,
+            "scope": 339,
             "src": "196:189:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1419,7 +1419,7 @@
           },
           {
             "body": {
-              "id": 335,
+              "id": 337,
               "nodeType": "Block",
               "src": "448:27:3",
               "statements": [
@@ -1428,25 +1428,25 @@
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 331,
+                      "id": 333,
                       "name": "hats",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 281,
+                      "referencedDeclaration": 283,
                       "src": "460:4:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                         "typeString": "mapping(address => uint256)"
                       }
                     },
-                    "id": 333,
+                    "id": 335,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 332,
+                      "id": 334,
                       "name": "addr",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 326,
+                      "referencedDeclaration": 328,
                       "src": "465:4:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -1464,30 +1464,30 @@
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 330,
-                  "id": 334,
+                  "functionReturnParameters": 332,
+                  "id": 336,
                   "nodeType": "Return",
                   "src": "453:17:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 336,
+            "id": 338,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getHats",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 327,
+              "id": 329,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 326,
+                  "id": 328,
                   "name": "addr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 336,
+                  "scope": 338,
                   "src": "408:12:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1496,7 +1496,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 325,
+                    "id": 327,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "408:7:3",
@@ -1513,15 +1513,15 @@
               "src": "407:14:3"
             },
             "returnParameters": {
-              "id": 330,
+              "id": 332,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 329,
+                  "id": 331,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 336,
+                  "scope": 338,
                   "src": "442:4:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1530,7 +1530,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 328,
+                    "id": 330,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "442:4:3",
@@ -1545,14 +1545,14 @@
               ],
               "src": "441:6:3"
             },
-            "scope": 337,
+            "scope": 339,
             "src": "391:84:3",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 338,
+        "scope": 340,
         "src": "36:442:3"
       }
     ],
@@ -1593,12 +1593,12 @@
         }
       },
       "links": {},
-      "address": "0x9bE74E17EC0526AcAe3aBd8A2e07FA8d146E3d69",
-      "transactionHash": "0x419e002b6c1c37a03cee60660cb1c559642e55176c79f0b1cf31328108084e8b"
+      "address": "0x8a2664deB65b3d82260A47DDdc38cC8855Eb6d0D",
+      "transactionHash": "0x3047af0be75c03d8739d87514df9339e37cfdf5529896131eb99289c67db6e90"
     }
   },
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-02-02T20:36:10.380Z",
+  "updatedAt": "2020-02-02T20:56:31.265Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
