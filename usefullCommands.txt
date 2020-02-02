@@ -1,0 +1,7 @@
+let m = await MetaCoin.deployed()
+let rh = await RedHat.deployed()
+let b0 = await m.getBalance(accounts[0])
+let h0 = await rh.getHats(accounts[0])
+let b1 = await m.getBalance(accounts[1])
+let h1 = await rh.getHats(accounts[1])
+m.sendCoin(accounts[1], 10, {from: accounts[0]})

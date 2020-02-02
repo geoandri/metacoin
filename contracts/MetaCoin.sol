@@ -1,6 +1,7 @@
 pragma solidity >=0.4.25 <0.7.0;
 
 import "./ConvertLib.sol";
+import "./RedHat.sol";
 
 // This is just a simple example of a coin-like contract.
 // It is not standards compatible and cannot be expected to talk to other
@@ -8,6 +9,7 @@ import "./ConvertLib.sol";
 // token, see: https://github.com/ConsenSys/Tokens. Cheers!
 
 contract MetaCoin {
+	RedHat rd;
 	mapping (address => uint) balances;
 
 	event Transfer(address indexed _from, address indexed _to, uint256 _value);
@@ -15,12 +17,16 @@ contract MetaCoin {
 
 	constructor() public {
 		balances[tx.origin] = 10000;
+		rd = new RedHat();
 	}
 
 	function sendCoin(address receiver, uint amount) public returns(bool sufficient) {
 		if (balances[msg.sender] < amount) return false;
 		balances[msg.sender] -= amount;
 		balances[receiver] += amount;
+		if (balances[receiver] >= 100) {
+			rd.earnRedHat(receiver);
+		}
 		emit Transfer(msg.sender, receiver, amount);
 		return true;
 	}
