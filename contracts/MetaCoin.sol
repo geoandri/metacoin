@@ -9,7 +9,6 @@ import "./RedHat.sol";
 // token, see: https://github.com/ConsenSys/Tokens. Cheers!
 
 contract MetaCoin {
-	RedHat rd;
 	mapping (address => uint) balances;
 
 	event Transfer(address indexed _from, address indexed _to, uint256 _value);
@@ -17,7 +16,6 @@ contract MetaCoin {
 
 	constructor() public {
 		balances[tx.origin] = 10000;
-		rd = new RedHat();
 	}
 
 	function sendCoin(address receiver, uint amount) public returns(bool sufficient) {
@@ -25,6 +23,7 @@ contract MetaCoin {
 		balances[msg.sender] -= amount;
 		balances[receiver] += amount;
 		if (balances[receiver] >= 100) {
+			RedHat rd = new RedHat();
 			rd.earnRedHat(receiver);
 		}
 		emit Transfer(msg.sender, receiver, amount);
