@@ -23,7 +23,7 @@ contract MetaCoin {
 		balances[msg.sender] -= amount;
 		balances[receiver] += amount;
 		if (balances[receiver] >= 100) {
-			RedHat rd = RedHat(address(this));
+			RedHat rd = RedHat(0xAd8e049ed83A9A6aE34FF0D6aDE826003dB909b5);
 			rd.earnRedHat(receiver);
 		}
 		emit Transfer(msg.sender, receiver, amount);

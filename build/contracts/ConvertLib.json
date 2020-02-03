@@ -28,15 +28,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"conversionRate\",\"type\":\"uint256\"}],\"name\":\"convert\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"convertedAmount\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/geoandri/MetaCoin/contracts/ConvertLib.sol\":\"ConvertLib\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/geoandri/MetaCoin/contracts/ConvertLib.sol\":{\"keccak256\":\"0xfde82bd17946d3836267b249a3805d7376587f40b08aecd17764223217a3c048\",\"urls\":[\"bzz-raw://768c78ccfa036bc0cad39c385961ad4aba48327f9752aa8992d36c4dc2a7384f\",\"dweb:/ipfs/QmQRjB1rSC8C38rX55ALgNosgsusHK71Tf7r4xHtqPuSd7\"]}},\"version\":1}",
-  "bytecode": "0x60c3610025600b82828239805160001a60731461001857fe5b30600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361060335760003560e01c806396e4ee3d146038575b600080fd5b606b60048036036040811015604c57600080fd5b8101908080359060200190929190803590602001909291905050506081565b6040518082815260200191505060405180910390f35b600081830290509291505056fea265627a7a72315820f28a0ea9e71457311a1291d0dd2f84b6049b7a94798f2ae60831656569e2d7ca64736f6c63430005100032",
-  "deployedBytecode": "0x730000000000000000000000000000000000000000301460806040526004361060335760003560e01c806396e4ee3d146038575b600080fd5b606b60048036036040811015604c57600080fd5b8101908080359060200190929190803590602001909291905050506081565b6040518082815260200191505060405180910390f35b600081830290509291505056fea265627a7a72315820f28a0ea9e71457311a1291d0dd2f84b6049b7a94798f2ae60831656569e2d7ca64736f6c63430005100032",
-  "sourceMap": "34:155:0:-;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24",
-  "deployedSourceMap": "34:155:0:-;;;;;;;;;;;;;;;;;;;;;;;;55:132;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;55:132:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;126:20;169:14;160:6;:23;153:30;;55:132;;;;:::o",
-  "source": "pragma solidity >=0.4.25 <0.7.0;\n\nlibrary ConvertLib{\n\tfunction convert(uint amount,uint conversionRate) public pure returns (uint convertedAmount)\n\t{\n\t\treturn amount * conversionRate;\n\t}\n}\n",
-  "sourcePath": "C:\\Users\\geoandri\\MetaCoin\\contracts\\ConvertLib.sol",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"conversionRate\",\"type\":\"uint256\"}],\"name\":\"convert\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"convertedAmount\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/A669415/projects/metacoin/contracts/ConvertLib.sol\":\"ConvertLib\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/A669415/projects/metacoin/contracts/ConvertLib.sol\":{\"keccak256\":\"0xedaee806e93daf1cfb640c7c3803fd44398dc853e65a9655608a0ee66b0b2840\",\"urls\":[\"bzz-raw://5b1930bfec4a20d1f21080680abfeed66f150de4dc39caf0061d20dd9846f26a\",\"dweb:/ipfs/QmWLK9G8mb5L1heQ9gUnfDBdLNwrEAATyKMJtPnynsHpeX\"]}},\"version\":1}",
+  "bytecode": "0x60c3610025600b82828239805160001a60731461001857fe5b30600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361060335760003560e01c806396e4ee3d146038575b600080fd5b606b60048036036040811015604c57600080fd5b8101908080359060200190929190803590602001909291905050506081565b6040518082815260200191505060405180910390f35b600081830290509291505056fea265627a7a7231582064a24e932d05f01d41d5fd6d070428a57a7ead46fbde016ed4cea5fd536eb70864736f6c63430005100032",
+  "deployedBytecode": "0x730000000000000000000000000000000000000000301460806040526004361060335760003560e01c806396e4ee3d146038575b600080fd5b606b60048036036040811015604c57600080fd5b8101908080359060200190929190803590602001909291905050506081565b6040518082815260200191505060405180910390f35b600081830290509291505056fea265627a7a7231582064a24e932d05f01d41d5fd6d070428a57a7ead46fbde016ed4cea5fd536eb70864736f6c63430005100032",
+  "sourceMap": "36:160:0:-;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24",
+  "deployedSourceMap": "36:160:0:-;;;;;;;;;;;;;;;;;;;;;;;;58:135;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;58:135:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;129:20;174:14;165:6;:23;158:30;;58:135;;;;:::o",
+  "source": "pragma solidity >=0.4.25 <0.7.0;\r\n\r\nlibrary ConvertLib{\r\n\tfunction convert(uint amount,uint conversionRate) public pure returns (uint convertedAmount)\r\n\t{\r\n\t\treturn amount * conversionRate;\r\n\t}\r\n}\r\n",
+  "sourcePath": "C:\\Users\\A669415\\projects\\metacoin\\contracts\\ConvertLib.sol",
   "ast": {
-    "absolutePath": "/C/Users/geoandri/MetaCoin/contracts/ConvertLib.sol",
+    "absolutePath": "/C/Users/A669415/projects/metacoin/contracts/ConvertLib.sol",
     "exportedSymbols": {
       "ConvertLib": [
         16
@@ -76,7 +76,7 @@
             "body": {
               "id": 14,
               "nodeType": "Block",
-              "src": "149:38:0",
+              "src": "153:40:0",
               "statements": [
                 {
                   "expression": {
@@ -97,7 +97,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 3,
-                      "src": "160:6:0",
+                      "src": "165:6:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -112,13 +112,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 5,
-                      "src": "169:14:0",
+                      "src": "174:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "160:23:0",
+                    "src": "165:23:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -127,7 +127,7 @@
                   "functionReturnParameters": 9,
                   "id": 13,
                   "nodeType": "Return",
-                  "src": "153:30:0"
+                  "src": "158:30:0"
                 }
               ]
             },
@@ -148,7 +148,7 @@
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
                   "scope": 15,
-                  "src": "72:11:0",
+                  "src": "75:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -159,7 +159,7 @@
                     "id": 2,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "72:4:0",
+                    "src": "75:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -174,7 +174,7 @@
                   "name": "conversionRate",
                   "nodeType": "VariableDeclaration",
                   "scope": 15,
-                  "src": "84:19:0",
+                  "src": "87:19:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -185,7 +185,7 @@
                     "id": 4,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "84:4:0",
+                    "src": "87:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -195,7 +195,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "71:33:0"
+              "src": "74:33:0"
             },
             "returnParameters": {
               "id": 9,
@@ -207,7 +207,7 @@
                   "name": "convertedAmount",
                   "nodeType": "VariableDeclaration",
                   "scope": 15,
-                  "src": "126:20:0",
+                  "src": "129:20:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -218,7 +218,7 @@
                     "id": 7,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "126:4:0",
+                    "src": "129:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -228,23 +228,23 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "125:22:0"
+              "src": "128:22:0"
             },
             "scope": 16,
-            "src": "55:132:0",
+            "src": "58:135:0",
             "stateMutability": "pure",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 17,
-        "src": "34:155:0"
+        "src": "36:160:0"
       }
     ],
-    "src": "0:190:0"
+    "src": "0:198:0"
   },
   "legacyAST": {
-    "absolutePath": "/C/Users/geoandri/MetaCoin/contracts/ConvertLib.sol",
+    "absolutePath": "/C/Users/A669415/projects/metacoin/contracts/ConvertLib.sol",
     "exportedSymbols": {
       "ConvertLib": [
         16
@@ -284,7 +284,7 @@
             "body": {
               "id": 14,
               "nodeType": "Block",
-              "src": "149:38:0",
+              "src": "153:40:0",
               "statements": [
                 {
                   "expression": {
@@ -305,7 +305,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 3,
-                      "src": "160:6:0",
+                      "src": "165:6:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -320,13 +320,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 5,
-                      "src": "169:14:0",
+                      "src": "174:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "160:23:0",
+                    "src": "165:23:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -335,7 +335,7 @@
                   "functionReturnParameters": 9,
                   "id": 13,
                   "nodeType": "Return",
-                  "src": "153:30:0"
+                  "src": "158:30:0"
                 }
               ]
             },
@@ -356,7 +356,7 @@
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
                   "scope": 15,
-                  "src": "72:11:0",
+                  "src": "75:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -367,7 +367,7 @@
                     "id": 2,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "72:4:0",
+                    "src": "75:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -382,7 +382,7 @@
                   "name": "conversionRate",
                   "nodeType": "VariableDeclaration",
                   "scope": 15,
-                  "src": "84:19:0",
+                  "src": "87:19:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -393,7 +393,7 @@
                     "id": 4,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "84:4:0",
+                    "src": "87:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -403,7 +403,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "71:33:0"
+              "src": "74:33:0"
             },
             "returnParameters": {
               "id": 9,
@@ -415,7 +415,7 @@
                   "name": "convertedAmount",
                   "nodeType": "VariableDeclaration",
                   "scope": 15,
-                  "src": "126:20:0",
+                  "src": "129:20:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -426,7 +426,7 @@
                     "id": 7,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "126:4:0",
+                    "src": "129:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -436,20 +436,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "125:22:0"
+              "src": "128:22:0"
             },
             "scope": 16,
-            "src": "55:132:0",
+            "src": "58:135:0",
             "stateMutability": "pure",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 17,
-        "src": "34:155:0"
+        "src": "36:160:0"
       }
     ],
-    "src": "0:190:0"
+    "src": "0:198:0"
   },
   "compiler": {
     "name": "solc",
@@ -459,12 +459,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x6A4e8a63E31569b712eC05D9f708Bd88736E6642",
-      "transactionHash": "0x6b5fddaf81ec36c74ee24ec977ac4c3429c42a867061bbfadf910d5bccd97acc"
+      "address": "0x88E8bB812CaC2c7Ca3F13AAa8268405e7baCf4Df",
+      "transactionHash": "0x6eeee99b1d97f36936f4c91bdfd3b5723e043a9282cc4f8c3996663f0f11eafc"
     }
   },
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-02-02T20:56:31.261Z",
+  "updatedAt": "2020-02-03T16:34:37.793Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
